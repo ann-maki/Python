@@ -77,3 +77,4 @@ def delete_menu():
 
 def bye():
     print("До свидания!")
+    
