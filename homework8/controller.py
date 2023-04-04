@@ -1,6 +1,7 @@
 import view
 import model
 
+
 def run():
     view.greeting()
     while True:
