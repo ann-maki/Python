@@ -44,6 +44,7 @@ def rewrite_line(initial_line, new_line):
         file.close()
 
 
+
 def delete_line(line_to_delete):
     data = read_phonebook()
     result = []
@@ -56,3 +57,4 @@ def delete_line(line_to_delete):
                 file.write(item+" ")
             file.write("\n")
         file.close()
+        
